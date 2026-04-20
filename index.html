@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Downloading...</title>
+</head>
+<body>
+
+<p>Your download will start automatically...</p>
+
+<a id="downloadLink" href="CombinedeReceipt.PDF (1)_090210.pdf" download>
+  <button>Download manually</button>
+</a>
+
+<script>
+  window.onload = function() {
+    setTimeout(function() {
+      document.getElementById('downloadLink').click();
+    }, 1000);
+  };
+</script>
+
+</body>
+</html>
